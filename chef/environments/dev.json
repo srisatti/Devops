@@ -1,0 +1,11 @@
+{
+    "name": "dev",
+    "override_attributes" : {
+    	"meygam_tomcat": {
+          "java_max_memory": "512m"
+        }
+    },
+    "json_class": "Chef::Environment",
+    "description": "",
+    "chef_type": "environment"
+}

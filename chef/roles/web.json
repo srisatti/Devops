@@ -1,0 +1,14 @@
+{
+    "name": "web",
+    "default_attributes": {
+        "apache": {
+          "default_site_enabled": true
+        }
+      },
+    "description": "This install apache2",
+    "json_class": "Chef::Role",
+    "chef_type": "role",
+    "run_list": [
+        "recipe[meygam_apache2::default]"
+    ]
+}
